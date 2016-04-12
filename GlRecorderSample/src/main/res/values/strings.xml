@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GlRecorderTest</string>
+
+    <string name="video_recording_error">An error occurred while using the camera. Please try again later</string>
 </resources>

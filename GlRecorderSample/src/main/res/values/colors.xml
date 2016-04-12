@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="in_line_video_control_buttons_background_color">#33000000</color>
+
+    <color name="navigation_bg">#222222</color>
 </resources>

@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -14,4 +15,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <com.bendenen.glmediarecorder.GLVideoView
+        android:id="@+id/glVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:keepScreenOn="true" />
+
+    <FrameLayout
+        android:id="@+id/videoControlContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.bendenen.glrecordertest.view.InLineVideoCameraControlsView
+            android:id="@+id/buttonsHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/in_line_video_control_buttons_background_color"/>
+
+    </FrameLayout>
+
 </RelativeLayout>

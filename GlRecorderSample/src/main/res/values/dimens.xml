@@ -2,4 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="in_line_video_controls_buttons_size">44dp</dimen>
+    <dimen name="in_line_video_controls_switch_camera_button_size">40dp</dimen>
+    <dimen name="in_line_video_controls_attach_video_button_size">35dp</dimen>
+    <dimen name="in_line_video_controls_buttons_padding">16dp</dimen>
+
+    <dimen name="in_line_video_camera_controls_container_height">60dp</dimen>
 </resources>

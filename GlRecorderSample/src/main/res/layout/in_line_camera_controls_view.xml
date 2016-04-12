@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/in_line_video_camera_controls_container_height">
+
+    <RelativeLayout
+        android:id="@+id/cameraControlBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:paddingLeft="@dimen/in_line_video_controls_buttons_padding"
+        android:paddingRight="@dimen/in_line_video_controls_buttons_padding">
+
+        <TextView
+            android:id="@+id/videoRecordingTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/cameraSwitcherButton"
+            android:layout_width="@dimen/in_line_video_controls_switch_camera_button_size"
+            android:layout_height="@dimen/in_line_video_controls_switch_camera_button_size"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/camera_flip_icon"/>
+
+
+    </RelativeLayout>
+
+    <com.bendenen.glrecordertest.view.InLineRecordView
+        android:id="@+id/recordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+</FrameLayout>
